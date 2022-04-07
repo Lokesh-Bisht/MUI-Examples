@@ -1,0 +1,48 @@
+.nav-bar {
+  background-color: #175a9e;
+  padding: 50px 32px 8px 32px;
+}
+
+.nav-bar > a {
+  padding: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.tab-active {
+  background-color: #1e1e1f;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.tab:hover {
+  background-color: #71797E;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.element {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.element-container {
+  padding: 16px;
+  color: white;
+  background-color: #1e1e1f;
+  margin-bottom: 16px;
+  border-radius: 16px;
+}
+
+.element-content {
+  padding: 16px;
+  color: black;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.element-type > button, .size > button, .color > button {
+  margin-right: 16px;
+}
