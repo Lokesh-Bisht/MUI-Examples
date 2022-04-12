@@ -4,6 +4,7 @@ import { IconAndLabelButton } from './iconAndLabelButton';
 import { TextButton } from './textButton';
 import { UploadButton } from './uploadButton';
 import { IconButtons } from './iconButtons';
+import { LoadingButtons } from './loadingButtons';
 
 
 export const Button = () => {
@@ -29,6 +30,10 @@ export const Button = () => {
       <div className="element-container">
         <h2>Icon Buttons</h2>
         <IconButtons />
+      </div>
+      <div className="element-container">
+        <h2>Loading Buttons</h2>
+        <LoadingButtons />
       </div>
     </div>
   );
